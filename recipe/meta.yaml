@@ -14,7 +14,7 @@ build:
   entry_points:
     - polylaue = polylaue.main:main
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
@@ -32,6 +32,7 @@ requirements:
     - pyqtgraph
     - pyside6
     - python >={{ python_min }}
+    - scikit-image
     - scipy
 
 test:
