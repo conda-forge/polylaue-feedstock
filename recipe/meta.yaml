@@ -1,6 +1,6 @@
 {% set python_min = "3.11" %}
 {% set name = "polylaue" %}
-{% set version = "0.4.1" %}
+{% set version = "0.4.2" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/PolyLaue/PolyLaue/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 113a2cacbc4e48ec84a96720c32e8f8a0c01e265093f63fadb4aaf336fdd033f
+  sha256: 3b3137717b7a6921e629a3d0d670dff50141b7826aa4be3e52f9fccd261a0b19
 
 build:
   entry_points:
